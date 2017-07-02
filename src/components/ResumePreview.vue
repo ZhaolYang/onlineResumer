@@ -57,7 +57,7 @@
 			<h2>联系方式</h2>
 			<table>
 				<tr v-for="item in resume.contacts">
-					<td>{{item.contacts}}</td>
+					<td>{{item.contact}}</td>
 					<td v-show="item.content"> {{item.content}} </td>
 				</tr>
 			</table>
