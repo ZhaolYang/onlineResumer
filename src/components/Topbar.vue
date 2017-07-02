@@ -46,7 +46,7 @@ export default {
   },
   methods: {
   	signOut(){
-  		AV.user.logOut()
+  		AV.User.logOut()
   		this.$store.commit('removeUser')
   	},
   	signIn(user){
